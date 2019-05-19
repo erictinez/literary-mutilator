@@ -12,9 +12,22 @@
 		</p>
 
 		<button type="button"
-				  onclick="myFunction()">Return text color of p</button>
+				  onclick="myFunction()">What's my color</button>
+
+		<p>Click the button to display a string in a specified color.</p>
+
+		<button onclick="myFunction()">Surprise</button>
+
+		<p id="demo"></p>
+
+		<script>
+			function myFunction() {
+				var str = "Spicy jalapeno bacon ipsum dolor amet consequat cupim doner tongue. Buffalo labore flank ground round fugiat laboris capicola. Excepteur consequat hamburger pork kevin bacon deserunt meatloaf tri-tip strip steak beef ribs kielbasa et. T-bone proident pork belly picanha, sausage cillum buffalo adipisicing kielbasa aliquip labore occaecat tongue.";
+				var result = str.fontcolor("purple");
+				document.getElementById("demo").innerHTML = result;
+			}
+		</script>
 
 
-		
 	</body>
 </html>
