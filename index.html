@@ -6,10 +6,19 @@
 		<script src="script.js"></script>
 	</head>
 	<body>
-		<p>
+
+		<p id="myP" style="color:blue;">
 			Spicy jalapeno bacon ipsum dolor amet consequat cupim doner tongue. Buffalo labore flank ground round fugiat laboris capicola. Excepteur consequat hamburger pork kevin bacon deserunt meatloaf tri-tip strip steak beef ribs kielbasa et. T-bone proident pork belly picanha, sausage cillum buffalo adipisicing kielbasa aliquip labore occaecat tongue.
 		</p>
 
+		<button type="button"
+				  onclick="myFunction()">Return text color of p</button>
+
+		<script>
+			function myFunction() {
+				alert(document.getElementById("myP").style.color);
+			}
+		</script>
 		
 	</body>
 </html>
